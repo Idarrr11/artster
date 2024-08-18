@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+#nav {
+width: 100%;
+position: absolute;
+font-size: 12px;
+letter-spacing: 2px;
+padding: 1%;
+text-transform: uppercase;
+top: -100%;
+animation: anim4 1s forwards 2s;
+}
+#nav ul {
+list-style: none;
+}
+#nav ul li {
+display: inline-block;
+color: white;
+margin-right: 50px;
+margin-top: 22px;
+cursor: pointer;
+transition: 0.3s;
+}
+#nav ul li:hover{
+scale: 120%;
+}
+#nav h1:hover{
+scale: 110%;
+}
+@keyframes anim4{
+from{
+  top:  -100%;
+}
+to{
+  top:  0%;
+}
+
+}
+#product {
+height: auto;
+max-width: 17em;
+position: absolute;
+background-color: #fff;
+margin-top: 150px;
+margin-left: 40px;
+padding: 1em;
+box-shadow: 0 5px 5px #e1e1e1;
+font-family: Arial, Helvetica, sans-serif;
+transition: 1.0s ease-in-out;
+
+}
+#product:hover h4{
+color: #fff;
+}
+#product:hover button{
+color: #fff;
+background-color:#000 ;
+}
+#product:hover {
+color: #000;
+scale: 120%;
+background-color:#000 ;
+}
+#product button{
+margin-left: 120px;
+}
+#product img {
+width: 100px;
+padding: 6%;
+height: 100px;
+}
+@media screen and (max-width: 576){
+#product {
+font-size: 0.9em;
+}
+}
+#product2 {
+    height: auto;
+    max-width: 17em;
+    position: absolute;
+    background-color: #fff;
+    margin-top: 150px;
+    margin-left: 350px;
+    padding: 1em;
+    box-shadow: 0 5px 5px #e1e1e1;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: 1.0s ease-in-out;
+    }
+    #product2:hover h4{
+    color: #fff;
+    }
+    #product2:hover button{
+    color: #fff;
+    background-color:#000 ;
+    }
+    #product2:hover {
+    color: #000;
+    scale: 120%;
+    background-color:#000 ;
+    }
+    #product2 button{
+    margin-left: 120px;
+    }
+    #product2 img {
+    width: 100px;
+    padding: 6%;
+    height: 100px;
+    }
+    #product3 {
+      height: auto;
+      max-width: 17em;
+      position: absolute;
+      background-color: #fff;
+      margin-top: 150px;
+      margin-left: 660px;
+      padding: 1em;
+      box-shadow: 0 5px 5px #e1e1e1;
+      font-family: Arial, Helvetica, sans-serif;
+      transition: 1.0s ease-in-out;
+      }
+      #product3:hover h4{
+      color: #fff;
+      }
+      #product3:hover button{
+      color: #fff;
+      background-color:#000 ;
+      }
+      #product3:hover {
+      color: #000;
+      scale: 120%;
+      background-color:#000 ;
+      }
+      #product3 button{
+      margin-left: 120px;
+      }
+      #product3 img {
+      width: 100px;
+      padding: 6%;
+      height: 100px;
+      }
+      @media screen and (max-width: 920px){
+        #product3 {
+          margin-top: 420px;
+          margin-left: 40px;
+      }
+      
+    }
+    @media screen and (max-width: 720px){
+      #product2 {
+          margin-top: 50px;
+          margin-left: 40px;
+      }
+      #product3 {
+        margin-top: 50px;
+        margin-left: 40px;
+    }
+      #product, #product2, #product3 {
+        position: relative;
+        height: auto;
+        max-width: 17em;
+        background-color: #fff;
+        padding: 1em;
+        box-shadow: 0 5px 5px #e1e1e1;
+        font-family: Arial, Helvetica, sans-serif;
+        transition: 1.0s ease-in-out;
+        margin-bottom: 20px; /* Memberikan jarak antara produk dan elemen di bawahnya */
+        border-radius: 10px; /* Membulatkan sudut */
+    
+    }
+  }
+#footer {
+width: 100%;
+height: auto;
+position: fixed;
+padding: 5px;
+color: white;
+justify-content: center;
+align-items: center;
+display: flex;
+left: -100%;
+bottom: 0%;
+animation:anim6 1s forwards 2s;
+}
+#footer label {
+padding: 7px;
+letter-spacing: 2px;
+}
+#footer img {
+width: 18px;
+height: 18px;
+}
+@keyframes anim6{
+from{
+left:  -100%;
+}
+to{
+left:  0%;
+}
+
+}
+@media screen and (max-width: 560px){
+  #footer{
+    position: relative;
+    margin-top: 10px;
+  }
+   
+  }
+@media screen and (max-width: 390px){
+  #footer{
+    display:inline-block;
+    text-align: center;
+  }
+   
+  }
